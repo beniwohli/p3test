@@ -92,13 +92,11 @@ OPBEAT = {
     "TIMEOUT": 2,
     "SERVERS": ["http://intake.dev.woh.li"],
 }
-# OPBEAT = {
-#     "ORGANIZATION_ID": "534fdbb4c23d4287a0794b7a30340053",
-#     "APP_ID": "8978cddad8",
-#     "SECRET_TOKEN": "d81799dfbe09ed779e03f784d50d72363b4244b4",
-#     "TIMEOUT": 2,
-#     "SERVERS": ["http://s1.stage.opbeat.com"],
-# }
+OPBEAT = {
+    "ORGANIZATION_ID": "8da79d9d2c944779aef00686c635910c",
+    "APP_ID": "dc4d613ae2",
+    "SECRET_TOKEN": "1b6ec6a116131583197709905cb37eb9937d9647"
+} 
 
 LOGGING = {
     'version': 1,
