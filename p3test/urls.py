@@ -8,5 +8,6 @@ urlpatterns = patterns('',
     # url(r'^$', 'p3test.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', 'baaaad.views.hello_from_python_3', name='home'),
+    url(r'^random/$', 'baaaad.views.random_exception', name='random'),
     url(r'^admin/', include(admin.site.urls)),
 )
